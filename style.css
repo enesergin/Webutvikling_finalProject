@@ -1,1 +1,20 @@
+/* #2a5547 #f3f2f2 */
+/* ddbea9
+cb997e #f2e6d9 #e7e5e4 #eae7e1*/
 
+.nav_link-challenge{
+  background-color: #2a5547;
+  font-size: 30px;
+}
+.nav_link-solution{
+  background-color: #e0c7b8;
+  font-size: 30px;
+}
+.nav_link-app{
+  background-color: #d3a992;
+  font-size: 30px;
+}
+#headerQuote_h1{
+  background-color: #f3f2f1;
+  font-size: 30px;
+}
