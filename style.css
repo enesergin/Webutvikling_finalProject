@@ -1,54 +1,6 @@
 /* #2a5547 #d3a992 #f3f2f1 #e0c7b8 */
 /* ddbea9 */
 
-/**{
-  margin: 0px;
-  padding: 0px;
-  box-sixing: border-box;
-}
-
-nav{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  background-color: #2a5547;
-  font-weight: 'Poppins' 'Sans Serif';
-  margin-right: -600px;
-}
-
-
-#logo{
-  width: 100px;
-  margin-left: -240px;
-}
-
-.logo{
-  color:  #e0c7b8;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  font-size: 20px;
-  margin-left: -650px;
-}
-
-.nav-links li{
-  list-style: none;
-}
-
-.nav-links{
-  display: flex;
-  justify-content: space-around;
-  width: 30%;
-}
-
-.nav-links a{
-  color: #e0c7b8;
-  text-decoration: none;
-  letter-spacing: 3px;
-  font-weight: 300;
-  font-size: 20px;
-}*/
-
 *{
   margin: 0;
   padding: 0;
@@ -110,7 +62,7 @@ nav a{
   margin-left: 60px;
 }
 #språk a{
-  font-size: 13px;
+  font-size: 10px;
   margin: 0;
   margin-left: 10px;
 }
