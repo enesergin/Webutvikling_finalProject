@@ -1,6 +1,6 @@
 /* #2a5547 #d3a992 #f3f2f1 #e0c7b8 */
 /* ddbea9 */
-
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -14,7 +14,7 @@ body{
 }
 header{
   height: 100px;
-  background: #2a5547;
+  background:  #123524;
   width: 100%;
   z-index: 12;
   position: fixed;
@@ -26,18 +26,18 @@ header{
   padding: auto;
 }
 #logo_img{
-  width: 100px;
+  width: 85px;
   float: left;
   margin-left: -30%;
-  margin-top: 5px;
+  margin-top: 10px;
 }
-.logo p{
+.logo a{
   text-decoration: none;
-  font-size: 30px;
-  font-family: Arial;
+  font-size: 20px;
+  font-family: 'Work Sans', sans-serif;
   letter-spacing: 4px;
-  color: black;
-  margin-left: -50%;
+  color: white;
+  margin-left: -40%;
 }
 nav{
   float: right;
@@ -46,7 +46,7 @@ nav{
 nav a{
   text-decoration: none;
   font-family: Arial;
-  font-size: 20px;
+  font-size: 16px;
   margin: 0 12px;
   color: white;
   display: inline-block;
@@ -54,7 +54,7 @@ nav a{
   letter-spacing: 2px;
 }
 .nav_link{
-  margin-left: 50px;
+  margin-left: 30px;
 }
 #språk{
   float: right;
@@ -65,6 +65,22 @@ nav a{
   font-size: 10px;
   margin: 0;
   margin-left: 10px;
+}
+.bannerValg{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 100px;
+  background-color: #f3f2f1;
+  background-size: cover;
+  background-position: center center;
+}
+.lang{
+  padding-top: 8%;
+  font-size: 17px;
+  color: black;
+  float: center;
+  text-decoration: none;
 }
 .bannerArea{
   width: 100%;
@@ -111,22 +127,4 @@ nav a{
   text-align: center;
   padding: 5px 0;
   font-size: 30px;
-}
-
-.nav_link {
-    display: inline-block;
-    text-decoration: none;
-}
-
-.nav_link::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 1px;
-    background: #000;
-    transition: width .2s;
-}
-
-.nav_link:hover::after {
-    width: 100%;
 }
