@@ -220,7 +220,7 @@ margin-bottom: 60px;
 
 .item1 { grid-area: challenge; }
 .item2 { grid-area: solution; }
-.item3 { grid-area: bilde1; }
+.item3 { grid-area: bilde1; width: 100%; }
 .item4 { grid-area: tekst1; }
 .item5 { grid-area: bilde2; }
 .item6 { grid-area: tekst2; }
