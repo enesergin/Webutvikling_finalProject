@@ -130,7 +130,7 @@ nav a{
 }
 
 .page-wrapper {
-min-height: 100%
+height: 400px;
 }
 
 /*FN-section*/
@@ -140,7 +140,6 @@ background: #2a5547;
 color: #f3f2f1;
 height: 250px;
 position: relative;
-border: 1px solid red;
 }
 
 .fn .fn-content{
@@ -152,7 +151,6 @@ height: 250px;
 flex: 1;
 padding: 25px;
 text-align: center;
-border: 1px solid blue;
 }
 
 /* FOOTER */
