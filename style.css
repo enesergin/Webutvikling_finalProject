@@ -8,7 +8,6 @@
 body{
   text-align: center;
   overflow: scroll;
-
   background-color: #f3f2f1;
 }
 .wrapper{
@@ -20,9 +19,10 @@ header{
   background:  #2a5547;
   width: 100%;
   z-index: 12;
-  position: fixed;
+  position: relative;
 }
 .logo{
+  width: 30%;
   float: left;
   line-height: 100px;
   padding: auto;
@@ -33,6 +33,7 @@ header{
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 4px;
   color: white;
+  margin-left: -65%;
 }
 nav{
   float: right;
@@ -45,7 +46,7 @@ nav a{
   margin: 0 12px;
   color: white;
   display: inline-block;
-  margin-bottom: -20px;
+  /* margin-bottom: -20px; */
   letter-spacing: 2px;
 }
 .nav_link{
@@ -56,29 +57,26 @@ nav a{
   height: 100%;
   position: fixed;
   top: 100px;
-  background-color: #f3f2f1;
 }
-
 .bannerArea{
   float: none;
   width: 100%;
   height: 100%;
   position: relative;
   top: 100px;
-  background-color: #f3f2f1;
 }
 .bannerArea h2{
   padding-top: 2%;
   font-size: 70px;
   font-family: Arial;
   color: #262626;
-  background-color: #f3f2f1;
 }
 .bannerArea p{
   padding-top: 1%;
   font-size: 28px;
   font-family: Arial;
   color: #262626;
+
 }
 .content-area{
   float: none;
@@ -91,151 +89,48 @@ nav a{
   padding-top: 20px;
   font-size: 30px;
   margin: 0;
-  background-color: #f3f2f1;
 }
 .content-area p{
   padding: 2% 0;
   font-family: Arial;
   line-height: 25px;
-  background-color: #f3f2f1;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
 }
 
-
-/*FN-section*/
-
-.fn {
-background: #2a5547;
-color: #f3f2f1;
-height: 250px;
-position: relative;
-}
-
-.fn .fn-content{
-display:flex;
-height: 250px;
-}
-
-.fn .fn-content .fn-section{
-flex: 1;
-padding: 25px;
-text-align: center;
-}
-
-/* FOOTER */
- .footer {
-background: #2a5547;
-color: white;
-height: 200px;
-position: relative;
-}
-
-.footer .footer-content {
-height: 170px;
-display: flex;
-}
-
-.footer .footer-content .footer-section {
-flex: 1;
-text-align: center;
-}
-
-.link{
-  font: bold 15px Arial;
-  text-decoration: none;
-  display: inline-block;
-  padding-top: 1rem;
-  padding-right: 2rem;
-  padding-bottom: 1rem;
-  padding-left: 2rem;
-  border-top-left-radius: 300px;
-  border-top-right-radius: 300px;
-  border-bottom-right-radius: 300px;
-  border-bottom-left-radius: 300px;
-}
-
-.link1,
-.link2,
-.link3 {
-background-color: #e0c7b8;
-color: #262626;
-margin-top: 50px;
-}
-
-.link4 {
-background-color: #f3f2f1;
- color: #2a5547;
- margin-top: 60px;
- }
-
-.link1:hover,
-.link2:hover,
-.link3:hover {
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.footer .footer-bottom {
-background: #262626;
-color: white;
-height: 30px;
-width: 100%;
-text-align: center;
-position: absolute;
-bottom: 0px;
-left: 0px;
-padding-top: 20px;
-}
-
-@media only screen and (max-width: 934px) {
-.footer {
-height: auto;
-}
-
-.footer .footer-content {
-height: auto;
-flex-direction: column;
-}
-
-.footer .footer-content .link{
-margin-bottom: 60px;
-}
-.fn {
-height: auto;
-}
-
-.fn .fn-content {
-height: auto;
-flex-direction: column;
-}
-
-.fn .fn-content .sdg12{
-margin-bottom: 60px;
-}
-/*
 .item1 { grid-area: challenge; }
-.item2 { grid-area: solution; }
-.item3 { grid-area: bilde1; }
+.item2 { grid-area: fri; }
+.item3 { grid-area: solution; }
 .item4 { grid-area: tekst1; }
-.item5 { grid-area: bilde2; }
+.item5 { grid-area: bilde1; }
 .item6 { grid-area: tekst2; }
-.item7 { grid-area: bilde3; }
+.item7 { grid-area: bilde2; }
 .item8 { grid-area: tekst3; }
+.item9 { grid-area: bilde3; }
+.item10 { grid-area: fri; }
 
-.grid-container-read {
+.grid-read {
   display: grid;
   grid-template-areas:
-    'header header header header header'
-    'solution solution solution solution'
-    'bilde1 bilde1 tekst1 tekst1'
-    'bilde2 bilde2 tekst2 tekst2'
-    'bilde3 bilde3 tekst3 tekst3';
-  grid-gap:10px;
-  background-color: lightgrey;
+    'challenge challenge'
+    'fri fri'
+    'solution solution'
+    'bilde1 tekst1'
+    'bilde2 tekst2'
+    'bilde3 tekst3'
+    'fri fri';
+
+  grid-gap: 10px;
+  background-color: #2196F3;
   padding: 10px;
-  margin-top: 50%;
 }
 
-.grid-container-read > div {
+.grid-read > div {
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 50px 0;
+  padding: 20px 0;
   font-size: 30px;
-} */
+}

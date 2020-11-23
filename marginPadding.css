@@ -1,29 +1,26 @@
 
-.item1 { grid-area: challenge; }
-.item2 { grid-area: solution; }
-.item3 { grid-area: bilde1; }
-.item4 { grid-area: tekst1; }
-.item5 { grid-area: bilde2; }
-.item6 { grid-area: tekst2; }
-.item7 { grid-area: bilde3; }
-.item8 { grid-area: tekst3; }
 
-.grid-container-read {
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-read {
+  margin-top: 10%;
   display: grid;
   grid-template-areas:
-    'header header header header header'
-    'solution solution solution solution'
-    'bilde1 bilde1 tekst1 tekst1'
-    'bilde2 bilde2 tekst2 tekst2'
-    'bilde3 bilde3 tekst3 tekst3';
-  grid-gap:10px;
-  background-color: lightgrey;
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
   padding: 10px;
-  margin-top: 50%;
 }
 
-.grid-container-read > div {
+.grid-read > div {
+  background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
-  padding: 50px 0;
+  padding: 20px 0;
   font-size: 30px;
 }
