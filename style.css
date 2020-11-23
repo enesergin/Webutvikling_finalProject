@@ -230,3 +230,19 @@ flex-direction: column;
 .footer .footer-content .link{
 margin-bottom: 60px;
 
+.fn {
+height: auto;
+}
+
+.fn .fn-content {
+height: auto;
+flex-direction: column;
+}
+
+.fn .fn-content .sdg12{
+margin-bottom: 60px;
+}
+
+
+}
+
