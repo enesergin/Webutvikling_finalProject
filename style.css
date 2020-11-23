@@ -100,6 +100,12 @@ nav a{
   background-color: #f3f2f1;
 }
 
+/*prototype bilder og tekst*/
+.prototype {
+  width: 30%;
+  margin-top: 120px;
+}
+
 
 /*FN-section*/
 
