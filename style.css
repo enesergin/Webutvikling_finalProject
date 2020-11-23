@@ -23,7 +23,6 @@ header{
   position: fixed;
 }
 .logo{
-  width: 30%;
   float: left;
   line-height: 100px;
   padding: auto;
@@ -34,7 +33,6 @@ header{
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 4px;
   color: white;
-  margin-left: -65%;
 }
 nav{
   float: right;
@@ -87,7 +85,6 @@ nav a{
   width: 100%;
   position: relative;
   top: 200px;
-  background-color: #f3f2f1;
 }
 .content-area h2{
   font-family: Arial;
@@ -103,10 +100,6 @@ nav a{
   background-color: #f3f2f1;
 }
 
-
-.page-wrapper {
-height: 400px;
-}
 
 /*FN-section*/
 
@@ -129,7 +122,7 @@ text-align: center;
 }
 
 /* FOOTER */
-.footer {
+ .footer {
 background: #2a5547;
 color: white;
 height: 200px;
@@ -204,7 +197,7 @@ flex-direction: column;
 
 .footer .footer-content .link{
 margin-bottom: 60px;
-
+}
 .fn {
 height: auto;
 }
@@ -217,7 +210,7 @@ flex-direction: column;
 .fn .fn-content .sdg12{
 margin-bottom: 60px;
 }
-
+/*
 .item1 { grid-area: challenge; }
 .item2 { grid-area: solution; }
 .item3 { grid-area: bilde1; }
@@ -235,6 +228,7 @@ margin-bottom: 60px;
     'bilde1 bilde1 tekst1 tekst1'
     'bilde2 bilde2 tekst2 tekst2'
     'bilde3 bilde3 tekst3 tekst3';
+  grid-gap:10px;
   background-color: lightgrey;
   padding: 10px;
   margin-top: 50%;
@@ -244,4 +238,4 @@ margin-bottom: 60px;
   text-align: center;
   padding: 50px 0;
   font-size: 30px;
-}
+} */
