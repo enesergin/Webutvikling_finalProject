@@ -53,16 +53,6 @@ nav a{
 .nav_link{
   margin-left: 30px;
 }
-#språk{
-  float: right;
-  margin-right: -100px;
-  margin-left: 60px;
-}
-#språk a{
-  font-size: 10px;
-  margin: 0;
-  margin-left: 10px;
-}
 .bannerValg{
   width: 100%;
   height: 100%;
@@ -70,14 +60,7 @@ nav a{
   top: 100px;
   background-color: #f3f2f1;
 }
-.lang{
-  padding-top: 8%;
-  font-size: 17px;
-  color: black;
-  float: center;
-  text-decoration: none;
-  background-color: #f3f2f1;
-}
+
 .bannerArea{
   float: none;
   width: 100%;
@@ -119,18 +102,7 @@ nav a{
   line-height: 25px;
   background-color: #f3f2f1;
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
-}
-<<<<<<< HEAD
-=======
-.grid-container > div {
-  text-align: center;
-  padding: 5px 0;
-  font-size: 30px;
-}
+
 
 .page-wrapper {
 height: 400px;
@@ -246,7 +218,30 @@ flex-direction: column;
 margin-bottom: 60px;
 }
 
+.item1 { grid-area: challenge; }
+.item2 { grid-area: solution; }
+.item3 { grid-area: bilde1; }
+.item4 { grid-area: tekst1; }
+.item5 { grid-area: bilde2; }
+.item6 { grid-area: tekst2; }
+.item7 { grid-area: bilde3; }
+.item8 { grid-area: tekst3; }
 
+.grid-container-read {
+  display: grid;
+  grid-template-areas:
+    'header header header header header'
+    'solution solution solution solution'
+    'bilde1 bilde1 tekst1 tekst1'
+    'bilde2 bilde2 tekst2 tekst2'
+    'bilde3 bilde3 tekst3 tekst3';
+  background-color: lightgrey;
+  padding: 10px;
+  margin-top: 50%;
 }
 
->>>>>>> 462e5811fe12c730c463e9b14e7d0e28cd8f435e
+.grid-container-read > div {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 30px;
+}
