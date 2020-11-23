@@ -94,6 +94,55 @@ nav a{
   padding: 2% 0;
   font-family: Arial;
   line-height: 25px;
+<<<<<<< HEAD
+=======
+  background-color: #f3f2f1;
+}
+
+/*prototype bilder og tekst*/
+.prototype {
+  width: 30%;
+  margin-top: 120px;
+}
+
+
+/*FN-section*/
+
+.fn {
+background: #2a5547;
+color: #f3f2f1;
+height: 250px;
+position: relative;
+}
+
+.fn .fn-content{
+display:flex;
+height: 250px;
+}
+
+.fn .fn-content .fn-section{
+flex: 1;
+padding: 25px;
+text-align: center;
+}
+
+/* FOOTER */
+ .footer {
+background: #2a5547;
+color: white;
+height: 200px;
+position: relative;
+}
+
+.footer .footer-content {
+height: 170px;
+display: flex;
+}
+
+.footer .footer-content .footer-section {
+flex: 1;
+text-align: center;
+>>>>>>> c8cec62083b3d34e918b3a4783011287ad6748ec
 }
 .grid-container {
   display: grid;
@@ -102,8 +151,13 @@ nav a{
 }
 
 .item1 { grid-area: challenge; }
+<<<<<<< HEAD
 .item2 { grid-area: fri; }
 .item3 { grid-area: solution; }
+=======
+.item2 { grid-area: solution; }
+.item3 { grid-area: bilde1; width: 100%; }
+>>>>>>> c8cec62083b3d34e918b3a4783011287ad6748ec
 .item4 { grid-area: tekst1; }
 .item5 { grid-area: bilde1; }
 .item6 { grid-area: tekst2; }
