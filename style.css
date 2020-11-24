@@ -23,7 +23,7 @@ body{
 }
 header{
   height: 100px;
-  background:  #2a5547;
+  background: #f3f2f1;
   width: 100%;
   z-index: 12;
   position: relative;
@@ -40,7 +40,7 @@ header{
   font-size: 20px;
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 4px;
-  color: white;
+  color: #2a5547;
 
 }
 nav{
@@ -53,7 +53,8 @@ nav a{
   font-family: Arial;
   font-size: 16px;
   margin: 0 12px;
-  color: white;
+  color: #2a5547;
+  font-weight: bold;
   display: inline-block;
   /* margin-bottom: -20px; */
   letter-spacing: 2px;
