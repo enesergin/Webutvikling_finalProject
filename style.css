@@ -1,7 +1,6 @@
 /* #2a5547 #d3a992 #f3f2f1 #e0c7b8 */
 /* ddbea9 */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Work+Sans:wght@500&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -41,11 +40,11 @@ header{
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 4px;
   color: white;
-  margin-left: -65%;
 }
 nav{
   float: right;
   line-height: 100px;
+  margin-right: 5%;
 }
 nav a{
   text-decoration: none;
@@ -114,24 +113,46 @@ min-height:100%;
 }
 
 
-/*FN-section*/
+/*READ*/
 
 .fn {
 background: #2a5547;
 color: #f3f2f1;
-height: 250px;
+height: 30%;
 position: relative;
 }
 
 .fn .fn-content{
 display:flex;
-height: 250px;
+height: 30%;
 }
 
 .fn .fn-content .fn-section{
 flex: 1;
 padding: 25px;
 text-align: center;
+}
+
+.challenge {
+background: #262626;
+color: #f3f2f1;
+position: relative;
+}
+.challenge .challenge-content{
+display:flex;
+}
+.challenge .challenge-content .challenge-section{
+flex: 1;
+padding: 5%;
+text-align: left;
+vertical-align: middle;
+font-size: 30px;
+font-style: Times New Roman, Times , Serif;
+}
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
 
 /* FOOTER */
@@ -225,11 +246,8 @@ flex-direction: column;
 .fn .fn-content .sdg12{
 margin-bottom: 60px;
 }
-
-
 }
-
-.grid-container {
+/* .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
@@ -245,8 +263,8 @@ margin-bottom: 60px;
 }
 
 .grid-read > div {
-  text-align: left;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
   padding: 20px 0;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Work Sans', sans-serif
-}
+  font-size: 30px;
+} */
