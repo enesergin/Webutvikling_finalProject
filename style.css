@@ -1,6 +1,7 @@
 /* #2a5547 #d3a992 #f3f2f1 #e0c7b8 */
 /* ddbea9 */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Work+Sans:wght@500&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -244,8 +245,8 @@ margin-bottom: 60px;
 }
 
 .grid-read > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
+  text-align: left;
   padding: 20px 0;
-  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Work Sans', sans-serif
 }
