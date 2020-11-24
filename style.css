@@ -37,10 +37,10 @@ header{
 }
 .logo a{
   text-decoration: none;
-  font-size: 20px;
+  font-size: 28px;
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 4px;
-  color: #2a5547;
+  color: #234339;
 
 }
 nav{
@@ -51,9 +51,9 @@ nav{
 nav a{
   text-decoration: none;
   font-family: Arial;
-  font-size: 16px;
+  font-size: 18px;
   margin: 0 12px;
-  color: #2a5547;
+  color: #234339;
   font-weight: bold;
   display: inline-block;
   /* margin-bottom: -20px; */
