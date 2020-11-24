@@ -155,6 +155,28 @@ span {
   line-height: normal;
 }
 
+/*WATCH*/
+#overskriftW {
+  text-align: center;
+}
+.video {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+
+}
+
+.inftxt {
+  border: 2px solid black;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* FOOTER */
 .footer {
 background: #2a5547;
