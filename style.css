@@ -294,13 +294,6 @@ background-color: #f3f2f1;
  margin-top: 60px;
  }
 
-.link1:hover,
-.link2:hover,
-.link3:hover,
-.link4:hover{
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
 .footer .footer-bottom {
 background: #262626;
 color: white;
