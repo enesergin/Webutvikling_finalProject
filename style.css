@@ -208,6 +208,46 @@ font-size: 30px;
 font-style: Times New Roman, Times , Serif;
 }
 
+.prototype4 {
+background: #262626;
+color: #f3f2f1;
+position: relative;
+}
+.prototype4 .prototype4-content{
+display:flex;
+}
+.prototype4 .prototype4-content .prototype4-section{
+flex: 1;
+padding: 5%;
+text-align: left;
+vertical-align: middle;
+font-size: 30px;
+font-style: Times New Roman, Times , Serif;
+}
+
+/*WATCH*/
+#overskriftW {
+  text-align: center;
+}
+.video {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+
+}
+
+.inftxt {
+  border: 2px solid black;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
 /* FOOTER */
 .footer {
 background: #2a5547;
