@@ -154,9 +154,28 @@ span {
   vertical-align: middle;
   line-height: normal;
 }
+/*LISTEN*/
+.lydboks {
+   width: 60%;
+  height: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+.inflyd {
+  border: 2px solid black;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 /*WATCH*/
-#overskriftW {
+.overskriftW {
   text-align: center;
 }
 .video {
