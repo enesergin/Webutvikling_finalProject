@@ -33,6 +33,7 @@ header{
   float: left;
   line-height: 100px;
   padding: auto;
+  margin-left: -7%;
 }
 .logo a{
   text-decoration: none;
@@ -40,6 +41,7 @@ header{
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 4px;
   color: white;
+
 }
 nav{
   float: right;
@@ -134,7 +136,7 @@ text-align: center;
 }
 
 .challenge {
-background: #262626;
+background:#262626 ;
 color: #f3f2f1;
 position: relative;
 }
@@ -153,6 +155,57 @@ span {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
+}
+
+.prototype1 {
+background: #f3f2f1;
+color: #262626;
+position: relative;
+}
+.prototype1 .prototype1-content{
+display:flex;
+}
+.prototype1 .prototype1-content .prototype1-section{
+flex: 1;
+padding: 5%;
+text-align: left;
+vertical-align: middle;
+font-size: 30px;
+font-style: Times New Roman, Times , Serif;
+}
+
+.prototype2 {
+background: #262626;
+color:#f3f2f1;
+position: relative;
+}
+.prototype2 .prototype2-content{
+display:flex;
+}
+.prototype2 .prototype2-content .prototype2-section{
+flex: 1;
+padding: 5%;
+text-align: left;
+vertical-align: middle;
+font-size: 30px;
+font-style: Times New Roman, Times , Serif;
+}
+
+.prototype3 {
+background: #f3f2f1 ;
+color: #262626;
+position: relative;
+}
+.prototype3 .prototype3-content{
+display:flex;
+}
+.prototype3 .prototype3-content .prototype3-section{
+flex: 1;
+padding: 5%;
+text-align: left;
+vertical-align: middle;
+font-size: 30px;
+font-style: Times New Roman, Times , Serif;
 }
 
 /* FOOTER */
