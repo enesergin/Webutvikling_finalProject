@@ -341,11 +341,12 @@ padding-top: 20px;
   padding: 9px;
 }
 
-.grid-index p{
+.grid-index #indextext{
   text-align: left;
   font-size: 30px;
   padding: 15%;
-  line-height: 1.6;
+  padding-bottom: 0;
+  line-height: 1.5;
   vertical-align: middle;
 }
 .grid-index .protoindex {
@@ -353,6 +354,7 @@ padding-top: 20px;
   align-items: left;
   padding-bottom: 10%;
 }
+<<<<<<< Updated upstream
 
 @media only screen and (max-width: 934px) {
 .footer {
@@ -367,4 +369,13 @@ flex-direction: column;
 .footer .footer-content .link{
 margin-bottom: 60px;
 }
+=======
+.grid-index #navExp{
+  text-align: left;
+  font-size: 20px;
+  line-height: 1.6;
+  vertical-align: middle;
+  padding-left: 15%;
+  padding-right: 15%;
+>>>>>>> Stashed changes
 }
