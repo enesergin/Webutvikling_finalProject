@@ -20,12 +20,7 @@ body{
 .wrapper{
   width: 100%;
   margin: 0 auto;
- }
-
- .page-wrapper{
- min-height: 100%;
- }
-
+}
 header{
   height: 100px;
   background: #f3f2f1;
@@ -117,16 +112,17 @@ nav a{
 }
 
 /*READ*/
+
 .fn {
 background: #2a5547;
 color: #f3f2f1;
-height: 250px;
+height: 30%;
 position: relative;
 }
 
 .fn .fn-content{
-display: flex;
-height: 250px;
+display:flex;
+height: 30%;
 }
 
 .fn .fn-content .fn-section{
@@ -333,28 +329,6 @@ left: 0px;
 padding-top: 20px;
 }
 
-
-.grid-index {
-  margin-top: 2%;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  padding: 9px;
-}
-
-.grid-index #indextext{
-  text-align: left;
-  font-size: 30px;
-  padding: 15%;
-  padding-bottom: 0;
-  line-height: 1.5;
-  vertical-align: middle;
-}
-.grid-index .protoindex {
-  width: 460px;
-  align-items: left;
-  padding-bottom: 10%;
-}
-
 @media only screen and (max-width: 934px) {
 .footer {
 height: auto;
@@ -368,11 +342,48 @@ flex-direction: column;
 .footer .footer-content .link{
 margin-bottom: 60px;
 }
+
+.fn {
+height: auto;
+}
+
+.fn .fn-content {
+height: auto;
+flex-direction: column;
+}
+
+.fn .fn-content .sdg12{
+margin-bottom: 60px;
+}
+}
+
+
+.grid-index {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 9px;
+}
+
+.grid-index #indextext{
+  text-align: left;
+  font-size: 30px;
+  padding: 15%;
+  line-height: 1.6;
+  padding-bottom: 0;
+  vertical-align: middle;
+}
+.grid-index .protoindex {
+  width: 460px;
+  align-items: left;
+  padding-bottom: 10%;
+}
+
 .grid-index #navExp{
   text-align: left;
   font-size: 20px;
   line-height: 1.6;
   vertical-align: middle;
-  padding-left: 15%;
-  padding-right: 15%;
+  padding: 15%;
+  padding-top: 0;
 }
