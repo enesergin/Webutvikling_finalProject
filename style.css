@@ -333,34 +333,6 @@ left: 0px;
 padding-top: 20px;
 }
 
-@media only screen and (max-width: 934px) {
-.footer {
-height: auto;
-}
-
-.footer .footer-content {
-height: auto;
-flex-direction: column;
-}
-
-.footer .footer-content .link{
-margin-bottom: 60px;
-}
-
-.fn {
-height: auto;
-}
-
-.fn .fn-content {
-height: auto;
-flex-direction: column;
-}
-
-.fn .fn-content .sdg12{
-margin-bottom: 60px;
-}
-}
-
 
 .grid-index {
   margin-top: 2%;
@@ -380,4 +352,19 @@ margin-bottom: 60px;
   width: 460px;
   align-items: left;
   padding-bottom: 10%;
+}
+
+@media only screen and (max-width: 934px) {
+.footer {
+height: auto;
+}
+
+.footer .footer-content {
+height: auto;
+flex-direction: column;
+}
+
+.footer .footer-content .link{
+margin-bottom: 60px;
+}
 }
