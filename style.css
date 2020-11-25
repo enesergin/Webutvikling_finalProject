@@ -113,23 +113,6 @@ nav a{
 
 /*READ*/
 
-.fn {
-background: #2a5547;
-color: #f3f2f1;
-height: 30%;
-position: relative;
-}
-
-.fn .fn-content{
-display:flex;
-height: 30%;
-}
-
-.fn .fn-content .fn-section{
-flex: 1;
-padding: 25px;
-text-align: center;
-}
 
 .challenge {
 background:#262626 ;
