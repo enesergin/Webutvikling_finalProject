@@ -20,7 +20,12 @@ body{
 .wrapper{
   width: 100%;
   margin: 0 auto;
-}
+ }
+
+ .page-wrapper{
+ min-height: 100%;
+ }
+
 header{
   height: 100px;
   background: #f3f2f1;
