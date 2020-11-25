@@ -20,7 +20,12 @@ body{
 .wrapper{
   width: 100%;
   margin: 0 auto;
-}
+ }
+
+ .page-wrapper{
+ min-height: 100%;
+ }
+
 header{
   height: 100px;
   background: #f3f2f1;
@@ -41,8 +46,8 @@ header{
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 4px;
   color: #234339;
-
 }
+
 nav{
   float: right;
   line-height: 100px;
@@ -112,17 +117,16 @@ nav a{
 }
 
 /*READ*/
-
 .fn {
 background: #2a5547;
 color: #f3f2f1;
-height: 30%;
+height: 250px;
 position: relative;
 }
 
 .fn .fn-content{
-display:flex;
-height: 30%;
+display: flex;
+height: 250px;
 }
 
 .fn .fn-content .fn-section{
@@ -336,6 +340,29 @@ left: 0px;
 padding-top: 20px;
 }
 
+
+.grid-index {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding: 9px;
+}
+
+.grid-index #indextext{
+  text-align: left;
+  font-size: 30px;
+  padding: 15%;
+  padding-bottom: 0;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+.grid-index .protoindex {
+  width: 460px;
+  align-items: left;
+  padding-bottom: 10%;
+}
+<<<<<<< Updated upstream
+
 @media only screen and (max-width: 934px) {
 .footer {
 height: auto;
@@ -349,38 +376,13 @@ flex-direction: column;
 .footer .footer-content .link{
 margin-bottom: 60px;
 }
-
-.fn {
-height: auto;
-}
-
-.fn .fn-content {
-height: auto;
-flex-direction: column;
-}
-
-.fn .fn-content .sdg12{
-margin-bottom: 60px;
-}
-}
-
-
-.grid-index {
-  margin-top: 2%;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  padding: 9px;
-}
-
-.grid-index p{
+=======
+.grid-index #navExp{
   text-align: left;
-  font-size: 30px;
-  padding: 15%;
+  font-size: 20px;
   line-height: 1.6;
   vertical-align: middle;
-}
-.grid-index .protoindex {
-  width: 460px;
-  align-items: left;
-  padding-bottom: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
+>>>>>>> Stashed changes
 }
