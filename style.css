@@ -246,42 +246,16 @@ font-style: Times New Roman, Times , Serif;
   color: #234339;
 }
 
-.understrek {
-  width: 50%;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 /*WATCH*/
-.grid-indexWatch {
-  margin-top: 2%;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  padding: 9px;
-  
-}
-
 .overskriftW {
   text-align: center;
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 3px;
   color:#234339;
 }
-.titteltxt {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  width: 80%;
-  font-family: 'Work Sans', sans-serif;
-  letter-spacing: 3px;
-  color:#234339;
-
-}
 .video {
-  width: 80%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -291,7 +265,7 @@ font-style: Times New Roman, Times , Serif;
 
 .inftxt {
   border: 0px solid black;
-  width: 80%;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -381,7 +355,6 @@ padding-top: 20px;
   padding-bottom: 10%;
 }
 
-
 @media only screen and (max-width: 934px) {
 .footer {
 height: auto;
@@ -395,7 +368,6 @@ flex-direction: column;
 .footer .footer-content .link{
 margin-bottom: 60px;
 }
-
 .grid-index #navExp{
   text-align: left;
   font-size: 20px;
@@ -403,5 +375,4 @@ margin-bottom: 60px;
   vertical-align: middle;
   padding-left: 15%;
   padding-right: 15%;
-
 }
