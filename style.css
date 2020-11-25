@@ -152,25 +152,6 @@ span {
   vertical-align: middle;
   line-height: normal;
 }
-/*LISTEN*/
-.lydboks {
-   width: 60%;
-  height: 25%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: 2px solid black;
-}
-
-.inflyd {
-  border: 2px solid black;
-  width: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 
 .prototype1 {
 background: #f3f2f1;
@@ -240,9 +221,33 @@ font-size: 30px;
 font-style: Times New Roman, Times , Serif;
 }
 
+/*LISTEN*/
+.lydboks {
+   width: 60%;
+  height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+}
+
+.inflyd {
+  border: 0px solid black;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: 'Work Sans', sans-serif;
+  color: #234339;
+}
+
 /*WATCH*/
 .overskriftW {
   text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 3px;
+  color:#234339;
 }
 .video {
   width: 50%;
@@ -255,11 +260,14 @@ font-style: Times New Roman, Times , Serif;
 }
 
 .inftxt {
-  border: 2px solid black;
+  border: 0px solid black;
   width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
+  font-family: 'Work Sans', sans-serif;
+  color: #234339;
 
 }
 
