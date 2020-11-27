@@ -154,73 +154,92 @@ span {
   line-height: normal;
 }
 
-.prototype1 {
+/*GRID-READ*/
+
+.prototype1-grid {
 background: #262626;
-color: #262626;
+color: white;
 position: relative;
-}
-.prototype1 .prototype1-content{
-display:flex;
-}
-.prototype1 .prototype1-content .prototype1-section{
-flex: 1;
+display: grid;
+grid-template-columns: 50% 50%;
 padding: 5%;
+padding-bottom: 2%;
+padding-top: 2%;
+padding-right: 0;
+}
+.prototype1-grid .prototype1-content{
 text-align: left;
 vertical-align: middle;
 font-size: 30px;
 font-style: Times New Roman, Times , Serif;
+}
+.prototype1-grid #register_img{
+  width: 200px;
 }
 
-.prototype2 {
-background: rgba(13, 130, 7, 0.09);
-color:#f3f2f1;
+.prototype2-grid {
+background: #d3a992;
+color: white;
 position: relative;
-}
-.prototype2 .prototype2-content{
-display:flex;
-}
-.prototype2 .prototype2-content .prototype2-section{
-flex: 1;
+display: grid;
+grid-template-columns: 50% 50%;
 padding: 5%;
+padding-bottom: 2%;
+padding-top: 2%;
+padding-right: 0;
+}
+.prototype2-grid .prototype2-content{
 text-align: left;
 vertical-align: middle;
 font-size: 30px;
 font-style: Times New Roman, Times , Serif;
+}
+.prototype2-grid #register_img{
+  width: 200px;
 }
 
-.prototype3 {
-background: ;
-color: #262626;
+.prototype3-grid {
+background:  #262626;
+color: white;
 position: relative;
-}
-.prototype3 .prototype3-content{
-display:flex;
-}
-.prototype3 .prototype3-content .prototype3-section{
-flex: 1;
+display: grid;
+grid-template-columns: 50% 50%;
 padding: 5%;
+padding-bottom: 2%;
+padding-top: 2%;
+padding-right: 0;
+}
+.prototype3-grid .prototype3-content{
 text-align: left;
 vertical-align: middle;
 font-size: 30px;
 font-style: Times New Roman, Times , Serif;
+}
+.prototype3-grid #register_img{
+  width: 200px;
 }
 
-.prototype4 {
-background: #262626;
-color: #f3f2f1;
+.prototype4-grid {
+background: #d3a992;
+color: white;
 position: relative;
-}
-.prototype4 .prototype4-content{
-display:flex;
-}
-.prototype4 .prototype4-content .prototype4-section{
-flex: 1;
+display: grid;
+grid-template-columns: 50% 50%;
 padding: 5%;
+padding-bottom: 2%;
+padding-top: 2%;
+padding-right: 0;
+}
+.prototype4-grid .prototype4-content{
 text-align: left;
 vertical-align: middle;
 font-size: 30px;
 font-style: Times New Roman, Times , Serif;
 }
+.prototype4-grid #register_img{
+  width: 200px;
+}
+
 
 /*LISTEN*/
 .lydboks {
