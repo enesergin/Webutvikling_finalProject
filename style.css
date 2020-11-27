@@ -413,3 +413,39 @@ margin-bottom: 60px;
   padding: 15%;
   padding-top: 0;
 }
+/*SOURCES*/
+.overskriftSR {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  letter-spacing: 3px;
+  color:#234339;
+  font-size: 40px;
+}
+.understrekSR {
+  width: 50%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
+
+.kilder {
+  display: inline-block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+  height: 30%;
+  background-color:#e0c7b8;
+  margin: 20px;
+}
+
+.tittelKB {
+  border-bottom: 1px solid black;
+  text-align: left;
+}
+
+
+
+
+
+
