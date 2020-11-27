@@ -133,7 +133,7 @@ text-align: center;
 }
 
 .challenge {
-background:#262626 ;
+background:#ddbea9;
 color: #f3f2f1;
 position: relative;
 }
@@ -155,7 +155,7 @@ span {
 }
 
 .prototype1 {
-background: #f3f2f1;
+background: #262626;
 color: #262626;
 position: relative;
 }
@@ -172,7 +172,7 @@ font-style: Times New Roman, Times , Serif;
 }
 
 .prototype2 {
-background: #262626;
+background: rgba(13, 130, 7, 0.09);
 color:#f3f2f1;
 position: relative;
 }
@@ -189,7 +189,7 @@ font-style: Times New Roman, Times , Serif;
 }
 
 .prototype3 {
-background: #f3f2f1 ;
+background: ;
 color: #262626;
 position: relative;
 }
@@ -256,7 +256,7 @@ font-style: Times New Roman, Times , Serif;
   display: grid;
   grid-template-columns: 50% 50%;
   padding: 9px;
-  
+
 }
 .overskriftW {
   text-align: center;
@@ -444,9 +444,3 @@ margin-bottom: 60px;
   border-bottom: 1px solid black;
   text-align: left;
 }
-
-
-
-
-
-
