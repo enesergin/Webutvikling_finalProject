@@ -223,8 +223,8 @@ font-style: Times New Roman, Times , Serif;
 
 /*LISTEN*/
 .lydboks {
-   width: 60%;
-  height: 20%;
+   width: 200px;
+  height: 10%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -233,7 +233,7 @@ font-style: Times New Roman, Times , Serif;
 
 .inflyd {
   border: 0px solid black;
-  width: 50%;
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
