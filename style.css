@@ -132,9 +132,16 @@ padding: 25px;
 text-align: center;
 }
 
+/*GRID-READ*/
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
 .challenge {
-background:#ddbea9;
-color: #f3f2f1;
+background:#f3f2f1;
+color: #262626;
 position: relative;
 }
 .challenge .challenge-content{
@@ -148,16 +155,26 @@ vertical-align: middle;
 font-size: 30px;
 font-style: Times New Roman, Times , Serif;
 }
-span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
+
+.solution {
+background: #262626;
+color: #f3f2f1;
+position: relative;
+}
+.solution .solution-content{
+display:flex;
+}
+.solution .solution-content .solution-section{
+flex: 1;
+padding: 5%;
+text-align: left;
+vertical-align: middle;
+font-size: 30px;
+font-style: Times New Roman, Times , Serif;
 }
 
-/*GRID-READ*/
-
 .prototype1-grid {
-background: #262626;
+background: #ddbea9;
 color: white;
 position: relative;
 display: grid;
