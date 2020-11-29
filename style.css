@@ -131,28 +131,32 @@ position: relative;
 display: grid;
 column-gap: 3%;
 grid-template-columns: 50% 50%;
-padding: 5%;
+padding: 15%;
 padding-bottom: 2%;
 padding-top: 2%;
-
 }
 .challenge-grid .challenge-content{
   text-align: left;
   vertical-align: middle;
+<<<<<<< Updated upstream
   font-size: 25px;
   font-style: Times New Roman, Times , Serif;
   margin-right: 20px;
   border-right: 2px solid black;
+=======
+  font-size: 20px;
+  font-family: Arial;
+>>>>>>> Stashed changes
 }
 .challenge-grid .fn-section-web {
   text-align: left;
   vertical-align: middle;
-  font-size: 20px;
-  font-style: Times New Roman, Times , Serif;
+  font-size: 15px;
+  font-family: Arial;
 }
 .challenge-grid .fn-section-web p{
     margin-top: 5%;
-    font-size: 25px;
+    font-size: 20px;
     padding-right: 3%;
 }
 
@@ -184,12 +188,14 @@ display:flex;
 }
 .solution .solution-content .solution-section{
 flex: 1;
-padding: 5%;
+padding: 15%;
+padding-top: 5%;
+padding-bottom: 5%;
 text-align: left;
 vertical-align: middle;
-font-size: 25px;
+font-size: 20px;
 line-height: 2;
-font-style: Times New Roman, Times , Serif;
+  font-family: Arial;
 }
 
 .sq {
@@ -205,7 +211,7 @@ flex: 1;
 padding: 5%;
 text-align: middle;
 font-size: 30px;
-font-style: Times New Roman, Times , Serif;
+font-family: Arial;
 }
 
 .prototype1-grid {
@@ -214,18 +220,16 @@ color: white;
 position: relative;
 display: grid;
 grid-template-columns: 50% 50%;
-padding: 5%;
-padding-bottom: 2%;
-padding-top: 2%;
-padding-right: 0;
+padding: 15%;
+padding-top: 5%;
+padding-bottom: 5%;
 }
 .prototype1-grid .prototype1-content{
 text-align: left;
 vertical-align: middle;
-font-size: 30px;
-line-height: 2;
-
-font-style: Times New Roman, Times , Serif;
+font-size: 25px;
+line-height: 3;
+  font-family: Arial;
 }
 .prototype1-grid #register_img{
   width: 200px;
@@ -237,17 +241,16 @@ color: white;
 position: relative;
 display: grid;
 grid-template-columns: 50% 50%;
-padding: 5%;
-padding-bottom: 2%;
-padding-top: 2%;
-padding-right: 0;
+padding: 15%;
+padding-top: 5%;
+padding-bottom: 5%;
 }
 .prototype2-grid .prototype2-content{
 text-align: left;
 vertical-align: middle;
-font-size: 30px;
-font-style: Times New Roman, Times , Serif;
-line-height: 2;
+font-size: 25px;
+  font-family: Arial;
+line-height: 3;
 }
 .prototype2-grid #register_img{
   width: 200px;
@@ -259,17 +262,16 @@ color: white;
 position: relative;
 display: grid;
 grid-template-columns: 50% 50%;
-padding: 5%;
-padding-bottom: 2%;
-padding-top: 2%;
-padding-right: 0;
+padding: 15%;
+padding-top: 5%;
+padding-bottom: 5%;
 }
 .prototype3-grid .prototype3-content{
 text-align: left;
 vertical-align: middle;
-font-size: 25px;
-font-style: Times New Roman, Times , Serif;
-line-height: 2;
+font-size: 20px;
+  font-family: Arial;
+line-height: 3;
 }
 .prototype3-grid #register_img{
   width: 200px;
@@ -281,17 +283,16 @@ color: white;
 position: relative;
 display: grid;
 grid-template-columns: 50% 50%;
-padding: 5%;
-padding-bottom: 2%;
-padding-top: 2%;
-padding-right: 0;
+padding: 15%;
+padding-top: 5%;
+padding-bottom: 5%;
 }
 .prototype4-grid .prototype4-content{
 text-align: left;
 vertical-align: middle;
-font-size: 30px;
-font-style: Times New Roman, Times , Serif;
-line-height: 2;
+font-size: 25px;
+  font-family: Arial;
+line-height: 3;
 }
 .prototype4-grid #register_img{
   width: 200px;
@@ -303,17 +304,16 @@ color: white;
 position: relative;
 display: grid;
 grid-template-columns: 50% 50%;
-padding: 5%;
-padding-bottom: 2%;
-padding-top: 2%;
-padding-right: 0;
+padding: 15%;
+padding-top: 5%;
+padding-bottom: 5%;
 }
 .prototype5-grid .prototype5-content{
 text-align: left;
 vertical-align: middle;
-font-size: 30px;
-font-style: Times New Roman, Times , Serif;
-line-height: 2;
+font-size: 25px;
+  font-family: Arial;
+line-height: 3;
 }
 .prototype5-grid #register_img{
   width: 200px;
@@ -328,12 +328,14 @@ position: relative;
 display:flex;
 }
 .partner .partner-content .partner-section{
-padding: 5%;
+  padding: 15%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 text-align: left;
 vertical-align: middle;
-font-size: 30px;
-font-style: Times New Roman, Times , Serif;
-line-height: 2;
+font-size: 25px;
+  font-family: Arial;
+line-height: 3;
 }
 
 
@@ -354,7 +356,7 @@ line-height: 2;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  font-family: 'Work Sans', sans-serif;
+  font-family: Arial;
   color: #234339;
 }
 .understrek {
@@ -375,7 +377,7 @@ line-height: 2;
 }
 .overskriftW {
   text-align: center;
-  font-family: 'Work Sans', sans-serif;
+  font-family: Arial;
   letter-spacing: 3px;
   color:#234339;
 }
@@ -386,7 +388,7 @@ line-height: 2;
   margin-right: auto;
   text-align: left;
   width: 80%;
-  font-family: 'Work Sans', sans-serif;
+  font-family: Arial;
   letter-spacing: 3px;
   color:#234339;
 
@@ -408,7 +410,7 @@ line-height: 2;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
-  font-family: 'Work Sans', sans-serif;
+  font-family: Arial;
   color: #234339;
 
 }
@@ -439,10 +441,7 @@ text-align: center;
   padding-right: 2rem;
   padding-bottom: 1rem;
   padding-left: 2rem;
-  border-top-left-radius: 300px;
-  border-top-right-radius: 300px;
-  border-bottom-right-radius: 300px;
-  border-bottom-left-radius: 300px;
+  border-radius: 300px;
 }
 
 .link1,
@@ -455,7 +454,7 @@ margin-top: 50px;
 
 
 .footer .footer-bottom {
-background: #262626;
+background: #2a5547;
 color: white;
 height: 30px;
 width: 100%;
@@ -548,7 +547,7 @@ margin-bottom: 60px;
 /*SOURCES*/
 .overskriftSR {
   text-align: center;
-  font-family: 'Work Sans', sans-serif;
+  font-family: Arial;
   letter-spacing: 3px;
   color:#234339;
   font-size: 40px;
