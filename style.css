@@ -136,6 +136,8 @@ padding-top: 2%;
   vertical-align: middle;
   font-size: 25px;
   font-style: Times New Roman, Times , Serif;
+  margin-right: 20px;
+  border-right: 2px solid black;
 }
 .challenge-grid .fn-section-web {
   text-align: left;
