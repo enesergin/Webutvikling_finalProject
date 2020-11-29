@@ -110,6 +110,33 @@ nav a{
   line-height: 25px;
   background-color: #f3f2f1;
 }
+/*Diagram grid*/
+.diagram {
+background: #f3f2f1;
+color: black;
+height: 350px;
+position: relative;
+}
+
+.diagram .diagram-content {
+height: 350px;
+display: flex;
+}
+
+.diagram .diagram-content .diagram-section {
+flex: 1;
+padding 25px;
+text-align: center;
+}
+
+.diaimage {
+margin-top: 25px;
+}
+
+.info{
+background: #e0c7b8;
+height:400px;
+}
 
 /*prototype bilder og tekst*/
 .prototype {
