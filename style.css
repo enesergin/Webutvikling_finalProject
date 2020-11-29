@@ -485,21 +485,6 @@ border-bottom-right-radius: 300px;
 border-bottom-left-radius: 300px;
 }
 
-.fn {
-height: auto;
-}
-
-.fn .fn-content {
-height: auto;
-flex-direction: column;
-}
-
-.fn .fn-content .sdg12{
-margin-bottom: 60px;
-}
-}
-
-
 .grid-index {
   margin-top: 2%;
   display: grid;
