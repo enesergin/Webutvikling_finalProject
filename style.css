@@ -134,18 +134,18 @@ padding-top: 2%;
 .challenge-grid .challenge-content{
   text-align: left;
   vertical-align: middle;
-  font-size: 20px;
+  font-size: 25px;
   font-style: Times New Roman, Times , Serif;
 }
 .challenge-grid .fn-section-web {
   text-align: left;
   vertical-align: middle;
-  font-size: 15px;
+  font-size: 20px;
   font-style: Times New Roman, Times , Serif;
 }
 .challenge-grid .fn-section-web p{
     margin-top: 5%;
-    font-size: 20px;
+    font-size: 25px;
     padding-right: 3%;
 }
 
@@ -180,7 +180,8 @@ flex: 1;
 padding: 5%;
 text-align: left;
 vertical-align: middle;
-font-size: 20px;
+font-size: 25px;
+line-height: 2;
 font-style: Times New Roman, Times , Serif;
 }
 
