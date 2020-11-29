@@ -231,6 +231,7 @@ grid-template-columns: 50% 50%;
 padding: 15%;
 padding-top: 5%;
 padding-bottom: 5%;
+border-bottom: 1px solid white;
 }
 .prototype1-grid .prototype1-content{
 text-align: left;
@@ -252,6 +253,7 @@ grid-template-columns: 50% 50%;
 padding: 15%;
 padding-top: 5%;
 padding-bottom: 5%;
+border-bottom: 1px solid white;
 }
 .prototype2-grid .prototype2-content{
 text-align: left;
@@ -273,6 +275,7 @@ grid-template-columns: 50% 50%;
 padding: 15%;
 padding-top: 5%;
 padding-bottom: 5%;
+border-bottom: 1px solid white;
 }
 .prototype3-grid .prototype3-content{
 text-align: left;
@@ -294,6 +297,7 @@ grid-template-columns: 50% 50%;
 padding: 15%;
 padding-top: 5%;
 padding-bottom: 5%;
+border-bottom: 1px solid white;
 }
 .prototype4-grid .prototype4-content{
 text-align: left;
@@ -315,6 +319,7 @@ grid-template-columns: 50% 50%;
 padding: 15%;
 padding-top: 5%;
 padding-bottom: 5%;
+border-bottom: 1px solid white;
 }
 .prototype5-grid .prototype5-content{
 text-align: left;
