@@ -117,26 +117,6 @@ nav a{
   margin-top: 120px;
 }
 
-/*READ*/
-
-.fn {
-background: #2a5547;
-color: #f3f2f1;
-height: 30%;
-position: relative;
-}
-
-.fn .fn-content{
-display:flex;
-height: 30%;
-}
-
-.fn .fn-content .fn-section{
-flex: 1;
-padding: 25px;
-text-align: center;
-}
-
 /*GRID-READ*/
 span {
   display: inline-block;
@@ -144,22 +124,55 @@ span {
   line-height: normal;
 }
 
-.challenge {
-background:#f3f2f1;
+.challenge-grid {
 color: #262626;
+background: lightgrey;
 position: relative;
-}
-.challenge .challenge-content{
-display:flex;
-}
-.challenge .challenge-content .challenge-section{
-flex: 1;
+display: grid;
+column-gap: 3%;
+grid-template-columns: 50% 50%;
 padding: 5%;
-text-align: left;
-vertical-align: middle;
-font-size: 30px;
-font-style: Times New Roman, Times , Serif;
+padding-bottom: 2%;
+padding-top: 2%;
+
 }
+.challenge-grid .challenge-content{
+  text-align: left;
+  vertical-align: middle;
+  font-size: 25px;
+  font-style: Times New Roman, Times , Serif;
+  margin-right: 20px;
+  border-right: 2px solid black;
+}
+.challenge-grid .fn-section-web {
+  text-align: left;
+  vertical-align: middle;
+  font-size: 20px;
+  font-style: Times New Roman, Times , Serif;
+}
+.challenge-grid .fn-section-web p{
+    margin-top: 5%;
+    font-size: 25px;
+    padding-right: 3%;
+}
+
+
+
+.link4 {
+background-color: #f3f2f1;
+ color: #2a5547;
+ margin-top: 60px;
+ font: bold 15px Arial;
+ text-decoration: none;
+ display: inline-block;
+ padding-top: 1rem;
+ padding-right: 2rem;
+ padding-bottom: 1rem;
+ padding-left: 2rem;
+ border-radius: 300px;
+ margin: 0 0 0;
+ text-align: middle;
+ }
 
 .solution {
 background: #262626;
@@ -174,6 +187,23 @@ flex: 1;
 padding: 5%;
 text-align: left;
 vertical-align: middle;
+font-size: 25px;
+line-height: 2;
+font-style: Times New Roman, Times , Serif;
+}
+
+.sq {
+background: #262626;
+color: #f3f2f1;
+position: relative;
+}
+.q .q-content{
+display:flex;
+}
+.q .q-content .q-section{
+flex: 1;
+padding: 5%;
+text-align: middle;
 font-size: 30px;
 font-style: Times New Roman, Times , Serif;
 }
@@ -193,6 +223,8 @@ padding-right: 0;
 text-align: left;
 vertical-align: middle;
 font-size: 30px;
+line-height: 2;
+
 font-style: Times New Roman, Times , Serif;
 }
 .prototype1-grid #register_img{
@@ -215,6 +247,7 @@ text-align: left;
 vertical-align: middle;
 font-size: 30px;
 font-style: Times New Roman, Times , Serif;
+line-height: 2;
 }
 .prototype2-grid #register_img{
   width: 200px;
@@ -234,8 +267,9 @@ padding-right: 0;
 .prototype3-grid .prototype3-content{
 text-align: left;
 vertical-align: middle;
-font-size: 30px;
+font-size: 25px;
 font-style: Times New Roman, Times , Serif;
+line-height: 2;
 }
 .prototype3-grid #register_img{
   width: 200px;
@@ -257,9 +291,49 @@ text-align: left;
 vertical-align: middle;
 font-size: 30px;
 font-style: Times New Roman, Times , Serif;
+line-height: 2;
 }
 .prototype4-grid #register_img{
   width: 200px;
+}
+
+.prototype5-grid {
+background: #262626;
+color: white;
+position: relative;
+display: grid;
+grid-template-columns: 50% 50%;
+padding: 5%;
+padding-bottom: 2%;
+padding-top: 2%;
+padding-right: 0;
+}
+.prototype5-grid .prototype5-content{
+text-align: left;
+vertical-align: middle;
+font-size: 30px;
+font-style: Times New Roman, Times , Serif;
+line-height: 2;
+}
+.prototype5-grid #register_img{
+  width: 200px;
+}
+
+.partner {
+background:#f3f2f1 ;
+color: #262626;
+position: relative;
+}
+.partner .partner-content{
+display:flex;
+}
+.partner .partner-content .partner-section{
+padding: 5%;
+text-align: left;
+vertical-align: middle;
+font-size: 30px;
+font-style: Times New Roman, Times , Serif;
+line-height: 2;
 }
 
 
@@ -379,11 +453,6 @@ color: #262626;
 margin-top: 50px;
 }
 
-.link4 {
-background-color: #f3f2f1;
- color: #2a5547;
- margin-top: 60px;
- }
 
 .footer .footer-bottom {
 background: #262626;
