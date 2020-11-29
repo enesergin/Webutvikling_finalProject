@@ -397,14 +397,14 @@ line-height: 3;
 }
 .video {
   width: 80%;
-  height: 100%;
+  margin: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid black;
-
+  
 }
 
+/*
 .inftxt {
   width: 60%;
   display: block;
@@ -415,7 +415,7 @@ line-height: 3;
   color: #234339;
 
 }
-
+*/
 /* FOOTER */
 .footer {
 background: #2a5547;
