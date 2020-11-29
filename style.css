@@ -368,13 +368,7 @@ line-height: 3;
 
 /*WATCH*/
 
-.grid-indexWatch {
-  margin-top: 2%;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  padding: 9px;
 
-}
 .overskriftW {
   text-align: center;
   font-family: Arial;
@@ -386,7 +380,7 @@ line-height: 3;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
+  text-align: center;
   width: 80%;
   font-family: Arial;
   letter-spacing: 3px;
@@ -404,8 +398,7 @@ line-height: 3;
 }
 
 .inftxt {
-  border: 0px solid black;
-  width: 80%;
+  width: 60%;
   display: block;
   margin-left: auto;
   margin-right: auto;
