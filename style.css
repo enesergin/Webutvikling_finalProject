@@ -50,8 +50,33 @@ header{
   vertical-align: middle;
   color: #2a5547;
   letter-spacing: 2px;
-  font-size: 50px;
+  font-size: 3.5vw;
 }
+#readinnhold{
+  width: 100%;
+  background-color: #d3a992;
+}
+
+.readinnholdchild{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: auto;
+  width: 60%;
+}
+
+.readinnholdtittel{
+  letter-spacing: 1.8px;
+  line-height: 1.5;
+ padding-bottom: 2%;
+text-align: center;
+}
+
+.readinnholdtekst{
+  letter-spacing: 1.8px;
+  line-height: 1.5;
+  text-align: left;
+}
+
 
 @media screen and (max-height: 600px) {
   header{
@@ -136,7 +161,7 @@ nav > a:hover{
     width: 50%;
   }
   nav > a{
-    font-size: 4vw;
+    font-size: 3.5vw;
   }
   .navlogo > a{
     font-size: 4.5vw;
@@ -148,10 +173,10 @@ nav > a:hover{
     width: 60%;
   }
   nav > a{
-    font-size: 5vw;
+    font-size: 4.2vw;
   }
   .navlogo > a{
-    font-size: 5.5vw;
+    font-size: 5vw;
   }
 }
 
