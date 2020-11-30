@@ -162,11 +162,9 @@ text-align: left;
 display: block;
 margin-left: auto;
 margin-right: auto;
-width:85%;
+width:80%;
 font-size: 30px;
 margin:5%;
-line-height: 1.6;
-letter-spacing: 1.8px;
 }
 
 .headerinfo2{
@@ -241,7 +239,7 @@ text-align: left;
 display: block;
 margin-left: auto;
 margin-right: auto;
-letter-spacing: 1.5px;
+letter-space: 1;
 line-height:1.6;
 padding: 2%;
 }
@@ -275,35 +273,6 @@ letter-spacing:1.8px;
 
 
 /*GRID-READ*/
-.app{
-background: #cce5dd ;
-color: black;
-position: relative;
-}
-
-.app .app-content {
-display: flex;
-padding-top: 6%;
-padding-bottom:6%;
-}
-
-.app .app-content .app-section {
-flex: 1;
-padding 25px;
-text-align: center;
-}
-
-@media only screen and (max-width: 934px) {
-.app {
-height: auto;
-}
-
-.app .app-content {
-height: auto;
-flex-direction: column;
-}
-}
-
 
 .overskriftR {
 
@@ -561,7 +530,7 @@ line-height: 3;
 
 .inflyd {
   border: 0px solid black;
-  width: 50%;
+  width: 30%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -569,9 +538,6 @@ line-height: 3;
   font-family: Arial;
   color: #234339;
   padding-top: 20px;
-  letter-spacing:1.8px;
-  line-height:1.6;
-
 }
 .understrek {
   width: 50%;
