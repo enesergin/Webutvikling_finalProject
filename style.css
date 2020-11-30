@@ -273,6 +273,34 @@ letter-spacing:1.8px;
 
 
 /*GRID-READ*/
+.app {
+background: white;
+color: black;
+position: relative;
+}
+
+.app .app-content {
+display: flex;
+padding-top: 6%;
+padding bottom: 6%;
+}
+
+.app .app-content .app-section {
+flex: 1;
+padding 25px;
+text-align: center;
+
+}
+@media only screen and (max-width: 934px) {
+.app {
+height: auto;
+}
+
+.app .app-content {
+height: auto;
+flex-direction: column;
+}
+}
 
 .overskriftR {
 
