@@ -403,7 +403,7 @@ margin-left: 10%;
 }
 
 .fn {
-background: #d3a992 ;
+background: /*#d3a992*/ #cce5dd ;
 color: black;
 position: relative;
 }
