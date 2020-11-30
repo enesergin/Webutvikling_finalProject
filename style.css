@@ -33,7 +33,7 @@ body{
   margin: 0 auto;
 }
 
-/*
+
 header{
   height: 100px;
   background: #f3f2f1;
@@ -41,7 +41,7 @@ header{
   z-index: 12;
   position: relative;
 }
-*/
+
 
 header{
   background-color: #f3f2f1;
@@ -142,7 +142,7 @@ nav > a:hover{
   width: 20%;
 }
 
-
+*/
 .header {
 background: #f3f2f1;
 color: black;
@@ -157,7 +157,7 @@ display: flex;
 
 .header .header-content .header-section {
 flex: 1;
-padding 25px;
+padding:25px;
 text-align: center;
 }
 
@@ -222,23 +222,8 @@ nav a{
 }
 */
 
-.header {
-background: #808080;
-color: white;
-height: 400px;
-position: relative;
-}
 
-.header .header-content {
-height: 350px;
-display: flex;
-}
 
-.header .header-content .header-section {
-flex: 1;
-padding 25px;
-text-align: center;
-}
 
 .bannerValg{
   width: 100%;
@@ -297,7 +282,7 @@ display: flex;
 
 .diagram .diagram-content .diagram-section {
 flex: 1;
-padding 25px;
+padding: 25px;
 text-align: center;
 }
 
@@ -657,7 +642,7 @@ line-height: 3;
   
 }
 
-/*
+
 .inftxt {
   width: 60%;
   display: block;
@@ -668,7 +653,7 @@ line-height: 3;
   color: #234339;
 
 }
-*/
+
 /* FOOTER */
 .footer {
 background: #2a5547;
