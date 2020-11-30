@@ -13,9 +13,6 @@ html, body {
  font-family: Arial;
 }
 
-a{
-  text-decoration: none;
-}
 
 html{
 scroll-behavior: smooth;
@@ -33,7 +30,7 @@ body{
 
 
 header{
-  background-color: #ebebeb;
+  background-color: #f3f2f1;
   width: 100%;
   height: 15%;
   border-bottom: solid 2px #2a5547;
@@ -81,18 +78,12 @@ text-align: center;
 @media screen and (max-height: 600px) {
   header{
     height: 20%;
-  }
-  #slogan{
-    height: 80%;
-  }
+  }  
 }
 @media screen and (max-height: 400px) {
   header{
     height: 30%;
-  }
-  #slogan{
-    height: 70%;
-  }
+  }  
 }
 
 .navwrapper{
@@ -139,7 +130,13 @@ nav > a{
 }
 
 nav > a:hover{
-  border-bottom:  solid 3px #2a5547;
+  border-bottom:  solid 3px #e0c7b8;
+}
+
+#test{
+  width: 100%;
+  height: 200px;
+  background-color: white;
 }
 
 @media screen and (max-width: 1050px) {
@@ -281,7 +278,7 @@ text-align: left;
 display: block;
 margin-left: auto;
 margin-right: auto;
-letter-space: 1;
+letter-spacing: 1.8px;
 line-height:1.6;
 padding: 2%;
 }
@@ -306,8 +303,8 @@ font-size: 22px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-padding-top: 2%;
 text-align: left;
+padding-top: 2%;
 padding-bottom: 5%;
 line-height:1.6;
 letter-spacing:1.8px;
@@ -315,6 +312,51 @@ letter-spacing:1.8px;
 
 
 /*GRID-READ*/
+.app {
+background: white;
+color: black;
+position: relative;
+}
+
+.app .app-content {
+display: flex;
+padding-top: 6%;
+padding-bottom: 6%;
+}
+
+.app .app-content .app-section {
+flex: 1;
+padding: 25px;
+text-align: center;
+}
+@media only screen and (max-width: 934px) {
+.app {
+height: auto;
+}
+
+.app .app-content {
+height: auto;
+flex-direction: column;
+}
+}
+
+.apphead{
+font-size: 35px;
+line-height: 1.6;
+letter-spacing:1.8px;
+margin-top: 10%;
+margin-bottom: 5%;
+text-align: left;
+margin-left: 20%;
+}
+
+.apptxt{
+font-size: 20px;
+line-height: 1.6;
+letter-spacing:1.8px;
+text-align:left;
+margin-left:20%;
+}
 
 .overskriftR {
 
