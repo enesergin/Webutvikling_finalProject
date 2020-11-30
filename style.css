@@ -36,6 +36,17 @@ header{
   border-bottom: solid 2px gray;
 }
 
+@media screen and (max-height: 600px) {
+  header{
+    height: 20%;
+  }  
+}
+@media screen and (max-height: 400px) {
+  header{
+    height: 30%;
+  }  
+}
+
 .navwrapper{
   width: 100%;
   height: 100%;
@@ -46,7 +57,7 @@ header{
   float: left;
   width: 30%;
   height: 100%;
-  text-align: center;
+  text-align: middle;
 }
 
 .navlogo > a{
@@ -55,7 +66,7 @@ header{
   text-decoration: none;
   width: 100%;
   height: 100%;
-  font-size: 35px;
+  font-size: 2.3vw;
   font-family: Arial;
   font-weight: 700;
   letter-spacing: 2px;
@@ -70,33 +81,12 @@ nav{
   display: table;
 }
 
-@media screen and (max-width: 1000px) {
-  nav{
-    width: 35%;
-  }
-}
-@media screen and (max-width: 800px) {
-  nav{
-    width: 40%;
-  }
-}
-@media screen and (max-width: 600px) {
-  nav{
-    width: 45%;
-  }
-}
-@media screen and (max-width: 400px) {
-  nav{
-    width: 50%;
-  }
-}
-
 nav > a{
   display: table-cell;
   vertical-align: middle;
   text-decoration: none;
   font-family: Arial;
-  font-size: 25px;
+  font-size: 1.7vw;
   color: #234339;
 }
 
@@ -108,6 +98,44 @@ nav > a:hover{
   width: 100%;
   height: 200px;
   background-color: white;
+}
+
+@media screen and (max-width: 1050px) {
+  nav{
+    width: 40%;
+  }
+
+  nav > a{
+    font-size: 3vw;
+  }
+
+  .navlogo > a{
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  nav{
+    width: 50%;
+  }
+  nav > a{
+    font-size: 4vw;
+  }
+  .navlogo > a{
+    font-size: 4.5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav{
+    width: 60%;
+  }
+  nav > a{
+    font-size: 5vw;
+  }
+  .navlogo > a{
+    font-size: 5.5vw;
+  }
 }
 
 /*INDEX HEADER*/
@@ -239,13 +267,13 @@ padding-bottom: 5%;
 /*GRID-READ*/
 
 .overskriftR {
-  
+
   text-align: left;
   font-family: Arial;
   letter-spacing: 3px;
   color:#234339;
 
-  
+
 }
 
 span {
@@ -527,7 +555,7 @@ line-height: 3;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 /* FOOTER */
