@@ -330,7 +330,7 @@ letter-spacing:1.8px;
 
 /*GRID-READ*/
 .app {
-background: #cce5dd;
+background: /*#cce5dd*/  /*#abd3c6*/  #79b9a5;
 color: black;
 position: relative;
 }
@@ -403,7 +403,7 @@ margin-left: 10%;
 }
 
 .fn {
-background: #d3a992 /*#cce5dd*/  ;
+background: /*#d3a992*/ /*#cce5dd*/ /*#e0c7b8*/  /*#abd3c6*/ #79b9a5;
 color: black;
 position: relative;
 }
