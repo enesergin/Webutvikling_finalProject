@@ -142,13 +142,13 @@ nav > a:hover{
 .header {
 background: #f3f2f1;
 color: black;
-height: 525px;
 position: relative;
 }
 
 .header .header-content {
-height: 525px;
 display: flex;
+padding-top: 6%;
+padding-bottom:6%;
 }
 
 .header .header-content .header-section {
@@ -202,12 +202,12 @@ flex-direction: column;
 .diagram {
 background: #f3f2f1;
 color: black;
-height: 500px;
+height: 550px;
 position: relative;
 }
 
 .diagram .diagram-content {
-height: 500px;
+height: 550px;
 display: flex;
 }
 
@@ -239,6 +239,9 @@ text-align: left;
 display: block;
 margin-left: auto;
 margin-right: auto;
+letter-space: 1;
+line-height:1.6;
+padding: 2%;
 }
 
 .info{
@@ -249,8 +252,11 @@ font-size: 40px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-padding-top: 6%;
+padding-top: 7%;
+padding-bottom: 3%;
+letter-spacing:1.8px;
 }
+
 
 .info-text{
 width: 70%;
@@ -261,6 +267,8 @@ margin-right: auto;
 padding-top: 2%;
 text-align: left;
 padding-bottom: 5%;
+line-height:1.6;
+letter-spacing:1.8px;
 }
 
 
