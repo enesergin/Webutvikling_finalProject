@@ -10,11 +10,16 @@ html, body {
  height:100%;
  padding:0;
  margin:0;
+ font-family: Arial;
 }
 
 
 html{
 scroll-behavior: smooth;
+}
+
+b{
+color: #2a5547;
 }
 
 body{
@@ -27,6 +32,7 @@ body{
   height: 100%;
   margin: 0 auto;
 }
+
 /*
 header{
   height: 100px;
@@ -134,6 +140,63 @@ nav > a:hover{
   letter-spacing: 4px;
   color: #234339;
   width: 20%;
+}
+
+
+.header {
+background: #f3f2f1;
+color: black;
+height: 525px;
+position: relative;
+}
+
+.header .header-content {
+height: 525px;
+display: flex;
+}
+
+.header .header-content .header-section {
+flex: 1;
+padding 25px;
+text-align: center;
+}
+
+.headerinfo{
+text-align: left;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:80%;
+font-size: 30px;
+margin:5%;
+}
+
+.headerinfo2{
+text-align: left;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:80%;
+font-size: 25px;
+margin:5%;
+padding-top:4%;
+}
+
+
+.headertxt{
+margin-top: 15%;
+margin-left: 12%;
+}
+
+@media only screen and (max-width: 934px) {
+.header {
+height: auto;
+}
+
+.header .header-content {
+height: auto;
+flex-direction: column;
+}
 }
 
 nav{
@@ -274,7 +337,7 @@ padding-top: 8%;
 }
 
 .info-text{
-width: 80%;
+width: 70%;
 font-size: 22px;
 display: block;
 margin-left: auto;
