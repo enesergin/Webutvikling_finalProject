@@ -484,12 +484,12 @@ line-height: 3;
 
 /*LISTEN*/
 .lydboks {
-  width: 200px;
-  height: 10%;
+  width: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid black;
+  border: 0px solid black;
+  padding:2%;
 }
 
 .inflyd {
@@ -501,6 +501,7 @@ line-height: 3;
   text-align: left;
   font-family: Arial;
   color: #234339;
+  padding-top: 20px;
 }
 .understrek {
   width: 50%;
@@ -509,15 +510,6 @@ line-height: 3;
   margin-left: auto;
 }
 
-.inftxt {
-  width: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  font-family: Arial;
-  color: #234339;
-}
 
 /*WATCH*/
 
@@ -526,19 +518,9 @@ line-height: 3;
   font-family: Arial;
   letter-spacing: 3px;
   color:#234339;
+  padding-top: 40px;
 }
 
-.titteltxt {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 80%;
-  font-family: Arial;
-  letter-spacing: 3px;
-  color:#234339;
-
-}
 .video {
   width: 80%;
   margin: 10px;
