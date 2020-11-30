@@ -22,6 +22,10 @@ b{
 color: #2a5547;
 }
 
+a{
+  text-decoration: none;
+}
+
 body{
   text-align: center;
   overflow: scroll;
@@ -130,7 +134,7 @@ nav > a{
 }
 
 nav > a:hover{
-  border-bottom:  solid 3px #e0c7b8;
+  border-bottom:  solid 3px #2a5547;
 }
 
 #test{
@@ -681,6 +685,7 @@ margin-top: 35px;
 }
 
 .footertxt {
+  letter-spacing: 2px;
 padding-top: 15px;
 font-size: 30px;
 }
@@ -840,10 +845,4 @@ border-bottom-left-radius: 300px;
 .kildedato{
   float: right;
   text-align: right;
-}
-
-@media queries (min-width: 600px){
-  .prototype1-grid{
-    grid-template-columns: 100% 100%;
-  }
 }
