@@ -28,10 +28,11 @@ body{
 }
 header{
   height: 100px;
-  background: #e0c7b8;
+  background: #f3f2f1;
   width: 100%;
   z-index: 12;
   position: relative;
+  border-bottom: 1px solid black;
 }
 .logo{
   width: 50%;
