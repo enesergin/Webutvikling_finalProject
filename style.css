@@ -10,7 +10,6 @@ html, body {
  height:100%;
  padding:0;
  margin:0;
- font-family: 'Work sans', sans-serif;
 }
 
 
@@ -23,60 +22,18 @@ body{
   overflow: scroll;
   background-color: #f3f2f1;
 }
-
-
-.header {
-background: #f3f2f1;
-color: black;
-height: 525px;
-position: relative;
-}
-
-.header .header-content {
-height: 525px;
-display: flex;
-}
-
-.header .header-content .header-section {
-flex: 1;
-padding 25px;
-text-align: center;
-}
-
-.headerinfo{
-text-align: left;
-display: block;
-margin-left: auto;
-margin-right: auto;
-width:70%;
-font-size: 30px;
-padding:10px;
-}
-
-b{
-color: #2a5547;
- }
-
-.headertxt {
-margin-top: 20%;
-}
-
-@media only screen and (max-width: 934px) {
-.header {
-height: auto;
-}
-
-.header .header-content {
-height: auto;
-flex-direction: column;
-}
-}
 .wrapper{
   width: 100%;
   height: 100%;
   margin: 0 auto;
 }
-
+header{
+  height: 100px;
+  background: #f3f2f1;
+  width: 100%;
+  z-index: 12;
+  position: relative;
+}
 .logo{
   width: 30%;
   float: left;
@@ -91,6 +48,24 @@ flex-direction: column;
   letter-spacing: 4px;
   color: #234339;
   width: 20%;
+}
+
+.header {
+background: #808080;
+color: white;
+height: 400px;
+position: relative;
+}
+
+.header .header-content {
+height: 350px;
+display: flex;
+}
+
+.header .header-content .header-section {
+flex: 1;
+padding 25px;
+text-align: center;
 }
 
 nav{
