@@ -345,14 +345,6 @@ height: auto;
 height: auto;
 flex-direction: column;
 }
-
-.apphead{
-padding-left: 0;
-}
-
-.apptxt{
-padding-left: 0;
-}
 }
 
 .apphead{
@@ -370,6 +362,10 @@ font-size: 20px;
 line-height: 1.6;
 letter-spacing:1.8px;
 text-align:left;
+}
+
+.appimage{
+width: 38%;
 }
 
 .overskriftR {
