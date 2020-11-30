@@ -282,7 +282,7 @@ position: relative;
 .app .app-content {
 display: flex;
 padding-top: 6%;
-padding bottom: 6%;
+padding-bottom: 6%;
 }
 
 .app .app-content .app-section {
@@ -300,6 +300,24 @@ height: auto;
 height: auto;
 flex-direction: column;
 }
+}
+
+.apphead{
+font-size: 35px;
+line-height: 1.6;
+letter-spacing:1.8px;
+margin-top: 10%;
+margin-bottom: 5%;
+text-align: left;
+margin-left: 20%;
+}
+
+.apptxt{
+font-size: 20px;
+line-height: 1.6;
+letter-spacing:1.8px;
+text-align:left;
+margin-left:20%;
 }
 
 .overskriftR {
