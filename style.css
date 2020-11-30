@@ -273,6 +273,19 @@ height: auto;
 height: auto;
 flex-direction: column;
 }
+
+.fn {
+height: auto;
+}
+
+.fn .fn-content {
+height: auto;
+flex-direction: column;
+}
+
+.fn .fn-content .sdg12{
+margin-bottom: 60px;
+}
 }
 
 .diatxt {
@@ -370,16 +383,33 @@ margin-left: 10%;
 width: 38%;
 }
 
+.fnhead{
+font-size: 20px;
+line-height: 1.6;
+letter-spacing:1.8px;
+margin-top: 5%;
+margin-bottom: 5%;
+text-align: left;
+display: block;
+margin-left: 10%;
+}
+
+.fntxt{
+font-size: 15px;
+line-height: 1.6;
+letter-spacing:1.8px;
+text-align:left;
+margin-left: 10%;
+}
+
 .fn {
-background: #2a5547;
-color: #f3f2f1;
-height: 250px;
+background: #d3a992 ;
+color: black;
 position: relative;
 }
 
 .fn .fn-content{
 display: flex;
-height: 250px;
 }
 
 .fn .fn-content .fn-section{
@@ -451,8 +481,8 @@ padding-top: 5%;
 
 
 .link4 {
-background-color: #f3f2f1;
- color: #2a5547;
+background-color: #2a5547;
+ color: white;
  margin-top: 60px;
  font: bold 15px Arial;
  text-decoration: none;
@@ -464,6 +494,7 @@ background-color: #f3f2f1;
  border-radius: 300px;
  margin: 0 0 0;
  text-align: middle;
+ margin-top: 15%;
  }
 
 .solution {
