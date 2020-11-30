@@ -114,12 +114,12 @@ nav a{
 .diagram {
 background: #f3f2f1;
 color: black;
-height: 350px;
+height: 500px;
 position: relative;
 }
 
 .diagram .diagram-content {
-height: 350px;
+height: 500px;
 display: flex;
 }
 
@@ -133,9 +133,34 @@ text-align: center;
 margin-top: 25px;
 }
 
+.diatxt {
+width: 60%;
+font-size: 18px;
+text-align: left;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
 .info{
 background: #e0c7b8;
-height:400px;
+height:250px;
+text-align: center;
+font-size: 40px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 8%;
+}
+
+.info-text{
+width: 80%;
+font-size: 22px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 2%;
+text-align: left;
 }
 
 /*prototype bilder og tekst*/
