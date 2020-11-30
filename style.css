@@ -33,16 +33,6 @@ body{
   margin: 0 auto;
 }
 
-/*
-header{
-  height: 100px;
-  background: #f3f2f1;
-  width: 100%;
-  z-index: 12;
-  position: relative;
-}
-*/
-
 header{
   background-color: #f3f2f1;
   width: 100%;
@@ -125,24 +115,6 @@ nav > a:hover{
 }
 
 
-/*
-.logo{
-  width: 30%;
-  float: left;
-  line-height: 100px;
-  padding: auto;
-  margin-left: -7%;
-}
-.logo a{
-  text-decoration: none;
-  font-size: 28px;
-  font-family: 'Work Sans', sans-serif;
-  letter-spacing: 4px;
-  color: #234339;
-  width: 20%;
-}
-
-
 .header {
 background: #f3f2f1;
 color: black;
@@ -197,47 +169,6 @@ height: auto;
 height: auto;
 flex-direction: column;
 }
-}
-
-nav{
-  float: right;
-  line-height: 100px;
-  margin-right: 5%;
-}
-nav a{
-  text-decoration: none;
-  font-family: Arial;
-  font-size: 18px;
-  margin: 0 12px;
-  color: #234339;
-  font-weight: bold;
-  display: inline-block;
-  /* margin-bottom: -20px; 
-  letter-spacing: 2px;
-  width: 10%;
-}
-
-.nav_link{
-  margin-left: 30px;
-}
-*/
-
-.header {
-background: #808080;
-color: white;
-height: 400px;
-position: relative;
-}
-
-.header .header-content {
-height: 350px;
-display: flex;
-}
-
-.header .header-content .header-section {
-flex: 1;
-padding 25px;
-text-align: center;
 }
 
 .bannerValg{
@@ -602,7 +533,7 @@ line-height: 3;
 
 /*LISTEN*/
 .lydboks {
-   width: 200px;
+  width: 200px;
   height: 10%;
   display: block;
   margin-left: auto;
@@ -625,6 +556,16 @@ line-height: 3;
   display: block;
   margin-right: auto;
   margin-left: auto;
+}
+
+.inftxt {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-family: Arial;
+  color: #234339;
 }
 
 /*WATCH*/
@@ -657,18 +598,6 @@ line-height: 3;
   
 }
 
-/*
-.inftxt {
-  width: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  font-family: Arial;
-  color: #234339;
-
-}
-*/
 /* FOOTER */
 .footer {
 background: #2a5547;
