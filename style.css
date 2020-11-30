@@ -110,6 +110,33 @@ nav a{
   line-height: 25px;
   background-color: #f3f2f1;
 }
+/*Diagram grid*/
+.diagram {
+background: #f3f2f1;
+color: black;
+height: 350px;
+position: relative;
+}
+
+.diagram .diagram-content {
+height: 350px;
+display: flex;
+}
+
+.diagram .diagram-content .diagram-section {
+flex: 1;
+padding 25px;
+text-align: center;
+}
+
+.diaimage {
+margin-top: 25px;
+}
+
+.info{
+background: #e0c7b8;
+height:400px;
+}
 
 /*prototype bilder og tekst*/
 .prototype {
@@ -231,6 +258,7 @@ grid-template-columns: 50% 50%;
 padding: 15%;
 padding-top: 5%;
 padding-bottom: 5%;
+border-bottom: 1px solid white;
 }
 .prototype1-grid .prototype1-content{
 text-align: left;
@@ -252,6 +280,7 @@ grid-template-columns: 50% 50%;
 padding: 15%;
 padding-top: 5%;
 padding-bottom: 5%;
+border-bottom: 1px solid white;
 }
 .prototype2-grid .prototype2-content{
 text-align: left;
@@ -273,6 +302,7 @@ grid-template-columns: 50% 50%;
 padding: 15%;
 padding-top: 5%;
 padding-bottom: 5%;
+border-bottom: 1px solid white;
 }
 .prototype3-grid .prototype3-content{
 text-align: left;
@@ -294,6 +324,7 @@ grid-template-columns: 50% 50%;
 padding: 15%;
 padding-top: 5%;
 padding-bottom: 5%;
+border-bottom: 1px solid white;
 }
 .prototype4-grid .prototype4-content{
 text-align: left;
@@ -315,6 +346,7 @@ grid-template-columns: 50% 50%;
 padding: 15%;
 padding-top: 5%;
 padding-bottom: 5%;
+border-bottom: 1px solid white;
 }
 .prototype5-grid .prototype5-content{
 text-align: left;
@@ -420,19 +452,15 @@ line-height: 3;
 .footer {
 background: #2a5547;
 color: white;
-height: 200px;
+height: 220px;
 position: relative;
 }
 
 .footer .footer-content {
-height: 170px;
-display: flex;
-}
-
-.footer .footer-content .footer-section {
-flex: 1;
+height: 190px;
 text-align: center;
 }
+
 
 .link{
   font: bold 15px Arial;
@@ -445,14 +473,16 @@ text-align: center;
   border-radius: 300px;
 }
 
-.link1,
-.link2,
-.link3 {
+.link1{
 background-color: #e0c7b8;
 color: #262626;
-margin-top: 50px;
+margin-top: 35px;
 }
 
+.footertxt {
+padding-top: 15px;
+font-size: 30px;
+}
 
 .footer .footer-bottom {
 background: #2a5547;
@@ -486,35 +516,6 @@ border-top-right-radius: 300px;
 border-bottom-right-radius: 300px;
 border-bottom-left-radius: 300px;
 }
-
-@media only screen and (max-width: 934px) {
-.footer {
-height: auto;
-}
-
-.footer .footer-content {
-height: auto;
-flex-direction: column;
-}
-
-.footer .footer-content .link{
-margin-bottom: 60px;
-}
-
-.fn {
-height: auto;
-}
-
-.fn .fn-content {
-height: auto;
-flex-direction: column;
-}
-
-.fn .fn-content .sdg12{
-margin-bottom: 60px;
-}
-}
-
 
 .grid-index {
   margin-top: 2%;
