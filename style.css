@@ -556,22 +556,86 @@ margin-bottom: 60px;
 .understrekSR {
   width: 50%;
   display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 20px;
+  margin: auto;
+  margin-bottom: 2%;
 }
 
 .kilder {
   display: inline-block;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   width: 60%;
-  height: 25%;
   background-color:#e0c7b8;
-  margin: 20px;
+  margin: 2%;
+}
+
+.kilder > hr {
+  width: 95%;
+  margin: auto;
+  border: solid 0.2px #897A71;
 }
 
 .tittelKB {
-  border-bottom: 1px solid black;
+  width: 90%;
+  padding: 0.5%;
+  margin: auto;
+  color: #3B3531;
   text-align: left;
+}
+
+.kildelink{
+  width: 90%;
+  margin: auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.linkicon {
+  float: left;
+  width: 3%;
+}
+
+.linkicon > img {
+  width: 100%;
+}
+
+
+.linktekst{
+  color: #3B3531;
+  width: 95%;
+  margin-left: 2%;
+  font-size: 17px;
+  text-align: left;
+  overflow:hidden;
+  display:inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kildeinfo{
+  width: 90%;
+  margin: auto;
+  padding-bottom: 3%;
+}
+
+.kildeauthor , .kildedato{
+  position: relative;
+  width: 50%;
+  color: #3B3531;
+  font-family: Arial;
+  letter-spacing: 1px;
+  font-size: 17px;
+  overflow:hidden;
+  display:inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.kildeauthor {
+  float: left;
+  text-align: left;
+}
+
+.kildedato{
+  float: right;
+  text-align: right;
 }
