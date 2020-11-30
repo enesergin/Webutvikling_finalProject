@@ -370,6 +370,24 @@ margin-left: 10%;
 width: 38%;
 }
 
+.fn {
+background: #2a5547;
+color: #f3f2f1;
+height: 250px;
+position: relative;
+}
+
+.fn .fn-content{
+display: flex;
+height: 250px;
+}
+
+.fn .fn-content .fn-section{
+flex: 1;
+padding: 25px;
+text-align: center;
+}
+
 .overskriftR {
 
   text-align: left;
