@@ -47,6 +47,7 @@ header{
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 4px;
   color: #234339;
+  width: 30%;
 }
 
 nav{
@@ -181,7 +182,19 @@ padding-bottom: 5%;
   margin-top: 120px;
 }
 
+
 /*GRID-READ*/
+
+.overskriftR {
+  
+  text-align: left;
+  font-family: Arial;
+  letter-spacing: 3px;
+  color:#234339;
+
+  
+}
+
 span {
   display: inline-block;
   vertical-align: middle;
@@ -676,4 +689,10 @@ border-bottom-left-radius: 300px;
 .kildedato{
   float: right;
   text-align: right;
+}
+
+@media queries (min-width: 600px){
+  .prototype1-grid{
+    grid-template-columns: 100% 100%;
+  }
 }
