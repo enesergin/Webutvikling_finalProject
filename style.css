@@ -256,7 +256,7 @@ text-align: left;
 display: block;
 margin-left: auto;
 margin-right: auto;
-letter-space: 1;
+letter-spacing: 1.8px;
 line-height:1.6;
 padding: 2%;
 }
@@ -281,8 +281,8 @@ font-size: 22px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-padding-top: 2%;
 text-align: left;
+padding-top: 2%;
 padding-bottom: 5%;
 line-height:1.6;
 letter-spacing:1.8px;
