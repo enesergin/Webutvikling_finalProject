@@ -577,7 +577,7 @@ left: 0px;
 padding-top: 20px;
 }
 
-/*scroll up btn */
+/*scroll up btn*/
 .gotopbtn {
 position: fixed;
 width: 50px;
@@ -589,8 +589,8 @@ line-height:60px;
 color: white;
 font-size: 35px;
 font-weight: bold;
-bottom: 85px;
-right: 50px;
+bottom: 3%;
+right: 3%;
 z-index: 1;
 border-top-left-radius: 300px;
 border-top-right-radius: 300px;
