@@ -24,18 +24,17 @@ body{
 }
 .wrapper{
   width: 100%;
-  height: 100%;
   margin: 0 auto;
 }
 header{
   height: 100px;
-  background: #f3f2f1;
+  background: #e0c7b8;
   width: 100%;
   z-index: 12;
   position: relative;
 }
 .logo{
-  width: 30%;
+  width: 50%;
   float: left;
   line-height: 100px;
   padding: auto;
@@ -43,11 +42,11 @@ header{
 }
 .logo a{
   text-decoration: none;
-  font-size: 28px;
   font-family: 'Work Sans', sans-serif;
   letter-spacing: 4px;
   color: #234339;
-  width: 20%;
+
+  
 }
 
 .header {
@@ -72,18 +71,18 @@ nav{
   float: right;
   line-height: 100px;
   margin-right: 5%;
+  width: 50%;
 }
 nav a{
   text-decoration: none;
   font-family: Arial;
-  font-size: 18px;
-  margin: 0 12px;
+  margin: 0 0px;
   color: #234339;
   font-weight: bold;
   display: inline-block;
   /* margin-bottom: -20px; */
   letter-spacing: 2px;
-  width: 10%;
+  
 }
 .nav_link{
   margin-left: 30px;
@@ -145,7 +144,7 @@ display: flex;
 
 .diagram .diagram-content .diagram-section {
 flex: 1;
-padding 25px;
+padding: 25px;
 text-align: center;
 }
 
@@ -453,12 +452,13 @@ line-height: 3;
 
 /*LISTEN*/
 .lydboks {
-   width: 200px;
-  height: 10%;
+   width: 50%;
+   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid black;
+  border: 0px solid black;
+  padding: 30px;
 }
 
 .inflyd {
@@ -470,6 +470,7 @@ line-height: 3;
   text-align: left;
   font-family: Arial;
   color: #234339;
+  padding-top: 20px;
 }
 .understrek {
   width: 50%;
@@ -486,6 +487,8 @@ line-height: 3;
   font-family: Arial;
   letter-spacing: 3px;
   color:#234339;
+  padding-top: 30px;
+
 }
 
 .titteltxt {
