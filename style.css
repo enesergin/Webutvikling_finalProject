@@ -171,6 +171,7 @@ text-align: left;
 display: block;
 margin-left: auto;
 margin-right: auto;
+font-family: Arial;
 }
 
 .info{
@@ -182,6 +183,7 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 padding-top: 8%;
+font-family: Arial;
 }
 
 .info-text{
@@ -190,9 +192,10 @@ font-size: 22px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-padding-top: 2%;
+padding: 2%;
 text-align: left;
 padding-bottom: 5%;
+font-family: Arial;
 }
 
 /*prototype bilder og tekst*/
@@ -205,13 +208,13 @@ padding-bottom: 5%;
 /*GRID-READ*/
 
 .overskriftR {
-  
+
   text-align: left;
   font-family: Arial;
   letter-spacing: 3px;
   color:#234339;
 
-  
+
 }
 
 span {
@@ -502,7 +505,7 @@ line-height: 3;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  
+
 }
 
 /*
@@ -709,9 +712,12 @@ border-bottom-left-radius: 300px;
   float: right;
   text-align: right;
 }
+<<<<<<< Updated upstream
 
 @media queries (min-width: 600px){
   .prototype1-grid{
     grid-template-columns: 100% 100%;
   }
 }
+=======
+>>>>>>> Stashed changes
