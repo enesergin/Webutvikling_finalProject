@@ -34,10 +34,9 @@ body{
 /* NAV BAR*/
 
 header{
-  background-color: #f3f2f1;
   width: 100%;
   height: 15%;
-  border-bottom: solid 2px #2a5547;
+  border-bottom: solid 2px #234339;
 }
 
 .navwrapper{
@@ -84,7 +83,7 @@ nav > a{
 }
 
 nav > a:hover{
-  border-bottom:  solid 3px #2a5547;
+  border-bottom:  solid 3px#234339;
 }
 
 /*NAVBAR SLUTT*/
@@ -508,9 +507,8 @@ nav > a:hover{
   position: fixed;
   width: 50px;
   height: 50px;
-  background: #d3a992;
+  background: #234339;
   text-decoration: none;
-  text-align: center;
   line-height:60px;
   color: white;
   font-size: 35px;
@@ -518,10 +516,8 @@ nav > a:hover{
   bottom: 3%;
   right: 3%;
   z-index: 1;
-  border-top-left-radius: 300px;
-  border-top-right-radius: 300px;
-  border-bottom-right-radius: 300px;
-  border-bottom-left-radius: 300px;
+  border-radius: 300px;
+  border: solid 2px white;
 }
 
 /*SLUTT scroll up btn*/
