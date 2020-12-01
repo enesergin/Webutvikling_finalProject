@@ -90,6 +90,12 @@ nav > a:hover{
 
 
 /*INDEX HEADER FORSIDE*/
+#scrolldownread{
+  position: absolute;
+  bottom: 10px;
+  width: 50px;
+  transform: translateX(-50%);
+}
 
 .indexBilde {
   width: 80%;
@@ -657,6 +663,9 @@ nav > a:hover{
     font-size: 18px;
   }
 
+  .overskriftSR {
+    font-size: 38px;
+  }
   .kilder{
     width: 65%;
   }
@@ -704,6 +713,9 @@ nav > a:hover{
     font-size: 16px;
   }
 
+  .overskriftSR {
+    font-size: 36px;
+  }
   .kilder{
     width: 70%;
   }
@@ -750,11 +762,17 @@ nav > a:hover{
     font-size: 15px;
   }
 
+  .overskriftSR {
+    font-size: 34px;
+  }
   .kilder{
     width: 80%;
   }
   .tittelKB {
     font-size: 18px;
+  }
+  .kildeauthor , .kildedato{
+    font-size: 11px;
   }
   .linktekst{
     font-size: 15px;
@@ -794,11 +812,17 @@ nav > a:hover{
     font-size: 15px;
   }
 
+  .overskriftSR {
+    font-size: 32px;
+  }
   .kilder{
     width: 90%;
   }
   .tittelKB {
     font-size: 16px;
+  }
+  .kildeauthor , .kildedato{
+    font-size: 10px;
   }
   .linktekst{
     font-size: 14px;
@@ -815,6 +839,19 @@ nav > a:hover{
   }
   .diatxt {
     width: 90%;
+    font-size: 13px;
+  }
+
+  .overskriftSR {
+    font-size: 30px;
+  }
+  .tittelKB {
+    font-size: 14px;
+  }
+  .kildeauthor , .kildedato{
+    font-size: 9px;
+  }
+  .linktekst{
     font-size: 13px;
   }
 }
@@ -839,7 +876,6 @@ nav > a:hover{
     height: 50%;
   }  
 }
-
 @media only screen and (max-width: 934px) {
   .indexBilde {
     width: 90%;
